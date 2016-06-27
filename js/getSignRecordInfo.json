@@ -9,6 +9,14 @@
     "nowDay": 1,
     "sumPoints": 0,
     "ja": [
+        {
+        "isContinSign": "0",
+        "dayNum": 26,
+        "rewardPoints": "0",
+        "isGetPoints": "0",
+        "rewardExp": "10",
+        "signThisMonDate": "2016-06-26"
+      },
       {
         "isContinSign": "0",
         "dayNum": 27,
