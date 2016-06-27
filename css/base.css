@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{width:100%; height: 100%;}
+
+body, button, input, select, textarea {-webkit-font-smoothing:antialiased;font-size:100%;}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {margin: 0;padding: 0;}
+table {border-collapse: collapse;border-spacing: ;}
+li {list-style: none outside none;}
+fieldset, img {border: 0 none; display:block}
+input, textarea {outline-style: none;resize:none;outline:none;}
+a {text-decoration: none;cursor:pointer;bblr:expression(this.onFocus=this.blur());/*IE使用*/outline-style:none;/*FF使用*/}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clear{clear:both;}
+.wrapper{width:1000px;margin:0 auto;}
+em{font-style:normal;}
+.left{float:left; display:inline;}
+.right{float:right; display:inline;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.mr5{margin-right:5px;}
+.yellow{color:#fbb31a;}
+.col1{color:#bfbfbf;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.pt10{padding-bottom:10px;}
+.pt20{padding-bottom:20px;}
+.pt30{padding-bottom:30px;}
+.white{background:#fff;}
+.grey{color:#6b6b6b;}
+.blue{color:#3385be;}
+.green{color:#679941;}
+.blueborder{text-decoration:underline;color:#3385BE;}
+.smallSize{font-size:0.8em;}
+.nobor{border:0px;}
+.borBottom{border-bottom:1px solid #ebeff0;height:2px;font-size:0px;}
+.noborder{border-bottom:0px;}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+
+

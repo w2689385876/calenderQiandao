@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>每日签到-demo</title>
+        <link href="css/base.css" rel="stylesheet" />
+        <link href="css/mycalendar.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/jquery.1.8.2.min.js"></script>
+        <script type="text/javascript" src="js/myCalendar.js"></script>
+        <script type="text/javascript" src="js/sign.js"></script>
+    </head>
+    <body>
+<!--左边部分-->
+    <div id='calendar' class='calendar'>
+        <div id='date' class='date'>
+            <a id='idCalendarPre' class='left'>&lt;</a>
+            <span id='idCalendarYear'> </span>年
+            <span id='idCalendarMonth'> </span>月
+            <a id='idCalendarNext' class='right'>&gt;</a>
+        </div>
+        <table id='calTable' class='calTable'>
+            <thead>
+                <tr>
+                    <th>星期日</th>
+                    <th>星期一</th>
+                    <th>星期二</th>
+                    <th>星期三</th>
+                    <th>星期四</th>
+                    <th>星期五</th>
+                    <th>星期六</th>
+                </tr>
+            </thead>
+            <tbody id="idCalendar">
+            </tbody>
+        </table>
+    </div>
+    </body>
+</html>
